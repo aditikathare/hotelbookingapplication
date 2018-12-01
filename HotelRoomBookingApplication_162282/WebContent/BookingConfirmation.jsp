@@ -7,6 +7,6 @@
 <title>BookingCofirmation</title>
 </head>
 <body>
-<h2>your Rooms are booked at Hilton Hotel </h2> 
+<h2>your Rooms are booked at ${name} </h2> 
 </body>
 </html>

@@ -28,8 +28,8 @@ public ModelAndView success(@RequestParam("name") String name){
 }
 	*/
 @RequestMapping(value="bookingconfirmation")
-public String success(String name){
-	return "BookingConfirmation";
+public ModelAndView success(@RequestParam("name")String name){
+	return new ModelAndView("BookingConfirmation","name",name);
 }
 
 	

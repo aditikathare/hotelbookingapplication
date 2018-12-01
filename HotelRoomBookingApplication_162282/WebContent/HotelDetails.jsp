@@ -31,7 +31,7 @@ th, td {
 			<c:forEach  var="hotel" items="${hotels}">
 				<tr>
 					<td>${hotel.id}</td>
-				<td><a href="bookingconfirmation">	${hotel.name}</a></td>
+				<td><a href="bookingconfirmation?name=${hotel.name}">${hotel.name}</a></td>
 				
 					<td>${hotel.rating}</td>
 					<td>${hotel.rate}</td>
